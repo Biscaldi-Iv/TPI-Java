@@ -25,7 +25,7 @@ public class ClientesData extends Coneccion {
 	}
 	
 	public ArrayList<Cliente> getAll() throws SQLException {
-		//return a Product objet ArrayList from data base
+		//return a Product objet ArrayList from data base 
 		ArrayList<Cliente> clientes=new ArrayList<Cliente>();
 		this.open();
 		Statement st=this.getCon().createStatement();

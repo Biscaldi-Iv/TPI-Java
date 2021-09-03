@@ -14,7 +14,7 @@ ejemplos/Servers/
 *.jar
 *.war
 *.ear
-*.db
+
 
 # Whitelist connector/j #
 !/ejemplos/**/lib/*.jar
