@@ -7,12 +7,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="" id="frmLogIn">
-		<p>Email
-		<input type="text"id="email"></p>
-		<p>Contraseña<input type="text" id="contra"></p>
+<form action="" id="frmLogIn"; style="text-align:center">
+		<div><p>Email
+		<input type="text"id="email"></p></div>
+		<div><p>Contraseña <input type="text" id="contra"></p></div>
+		<a href="">Olvide mi contraseña</a><br>
 		<button>Iniciar sesion</button>
 		<button>Registrarse</button>
 	</form>
+<style>
+input{
+	
+}
+</style>
 </body>
 </html>

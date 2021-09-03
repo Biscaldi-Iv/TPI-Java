@@ -28,6 +28,8 @@ public class servIndex extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		String correo;
+		String clave;
 		HttpSession se= request.getSession();
 		request.getRequestDispatcher("./index.jsp").forward(request, response);
 	}
